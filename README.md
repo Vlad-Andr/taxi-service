@@ -1,7 +1,7 @@
-Taxi Service
+### Taxi Service
 The main purpose of this project is the support companies, mainly taxi, that must take control of their cars and drivers. This achieves with functions, mostly CRUD operations, adding/ editing/ removing information about cars, drivers, manufacturers.
 
-Techniques/ Technologies
+### Techniques/ Technologies
 The project are separated on three-layer:
   - DAO - connection to DB;
   - Business Logic(service);
@@ -16,7 +16,7 @@ Web-server: Apache Tomcat
 Project builder: Apache Maven
 Database: RDBMS MySQL
 
-Usage
+### Usage
 1) Click on clone this project, open your IDE, then File -> New -> Project from Version Control -> paste project's URL -> Click clone.
 2) Configure Tomcat Server(the best solution is to use Tomcat 9.0.46 or later version);
 3) Configure MySQL RDBMS.
