@@ -8,7 +8,7 @@ The project are separated on three-layer:
   - Presentation - for viewing result;
 
 # Technologies that was used:
-DAO and Service layers: Java, JDBC, Servlets, Reflection API following by SOLID rules
+DAO and Service layers: Java, JDBC, Servlets, Reflection API(custom annotations and injector) following by SOLID rules
 
 Presentation layer: JSP, JSTL, HTML, CSS
 
