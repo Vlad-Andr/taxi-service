@@ -1,14 +1,16 @@
 # Taxi Service
 The main purpose of this project is the support companies, mainly taxi, that must take control of their cars and drivers. This achieves with functions, mostly CRUD operations, adding/ editing/ removing information about cars, drivers, manufacturers.
 
-# Techniques/ Technologies
+# Techniques
 The project are separated on three-layer:
   - DAO - connection to DB;
   - Business Logic(service);
   - Presentation - for viewing result;
-1) DAO layer was created with JDBC API.
-2) The service layer consists of two parts: Servlets, responsible for receiving requests and giving responses and Filters, providing a security function.
-3) The presentation layer displays responses as JSP pages.
+
+# Technologies
+ - DAO layer was created with JDBC API.
+ - The service layer consists of two parts: Servlets, responsible for receiving requests and giving responses and Filters, providing a security function.
+ - The presentation layer displays responses as JSP pages.
 
 # Technologies that was used:
 DAO and Service layers: Java, JDBC, Servlets, Reflection API
