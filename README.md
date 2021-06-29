@@ -12,9 +12,13 @@ The project are separated on three-layer:
 
 # Technologies that was used:
 DAO and Service layers: Java, JDBC, Servlets, Reflection API
+
 Presentation layer: JSP, JSTL, HTML, CSS
+
 Web-server: Apache Tomcat
+
 Project builder: Apache Maven
+
 Database: RDBMS MySQL
 
 # Usage
