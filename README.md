@@ -7,14 +7,8 @@ The project are separated on three-layer:
   - Business Logic(service);
   - Presentation - for viewing result;
 
-# Technologies
- - DAO layer was created with JDBC API and following SOLID rules.
- - The service layer consists of two parts: Servlets, responsible for receiving requests and giving responses and Filters, providing a security function.
-   This layer also includes custom annotations and an injector that implemented by Reflection API.
- - The presentation layer displays responses as JSP pages.
-
 # Technologies that was used:
-DAO and Service layers: Java, JDBC, Servlets, Reflection API
+DAO and Service layers: Java, JDBC, Servlets, Reflection API following by SOLID rules
 
 Presentation layer: JSP, JSTL, HTML, CSS
 
