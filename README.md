@@ -6,10 +6,11 @@ The project are separated on three-layer:
   - DAO - connection to DB;
   - Business Logic(service);
   - Presentation - for viewing result;
-DAO layer was created with JDBC API.
-The service layer consists of two parts: Servlets, responsible for receiving requests and giving responses and Filters, providing a security function.
-The presentation layer displays responses as JSP pages.
-Technologies that was used:
+1) DAO layer was created with JDBC API.
+2) The service layer consists of two parts: Servlets, responsible for receiving requests and giving responses and Filters, providing a security function.
+3) The presentation layer displays responses as JSP pages.
+
+№ Technologies that was used:
 DAO and Service layers: Java, JDBC, Servlets, Reflection API
 Presentation layer: JSP, JSTL, HTML, CSS
 Web-server: Apache Tomcat
